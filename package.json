@@ -18,11 +18,13 @@
   "bugs": "",
   "keywords": [],
   "author": {
-    "name": "we try",
+    "name": "Team 38",
     "email": "",
-    "url": ""
+    "url": "https://github.com/1985lxw/CS326_Milestone1"
   },
-  "contributors": [],
+  "contributors": [{name: "Cindy Mei", email: "cymei@umass.edu", githubUser: ""}, 
+    {name: "Xing-Wei Lee", email: "xingweilee@umass.edu", githubUser: "1985lxw"}, 
+    {name: "Sehwa Hong", email: "", githubUser: ""}],
   "scripts": {
     "dev": "",
     "test": "",
