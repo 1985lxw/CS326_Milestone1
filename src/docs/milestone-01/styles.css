@@ -2,5 +2,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    gap: 20px;
+
+}
+
+.member{
+    text-align: center;
+    border: 1px solid blue;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
