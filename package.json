@@ -22,7 +22,9 @@
     "email": "",
     "url": ""
   },
-  "contributors": [],
+  "contributors": [{"name": "Cindy Mei", "email": "cymei@umass.edu", "githubUser": ""}, 
+  {"name": "Xing-Wei Lee", "email": "xingweilee@umass.edu", "githubUser": "1985lxw"}, 
+  {"name": "Sehwa Hong", "email": "", "githubUser": ""}],
   "scripts": {
     "dev": "",
     "test": "",
