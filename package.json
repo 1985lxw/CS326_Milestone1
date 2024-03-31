@@ -22,9 +22,28 @@
     "email": "",
     "url": ""
   },
-  "contributors": [{"name": "Cindy Mei", "email": "cymei@umass.edu", "githubUser": "cinzm13"}, 
-  {"name": "Xing-Wei Lee", "email": "xingweilee@umass.edu", "githubUser": "1985lxw"}, 
-  {"name": "Sehwa Hong", "email": "sehwahong@umass.edu", "githubUser": "SehwaHong"}],
+  "contributors": [
+    {
+      "name": "Cindy Mei",
+      "email": "cymei@umass.edu",
+      "githubUser": "cinzm13"
+    },
+    {
+      "name": "Xing-Wei Lee",
+      "email": "xingweilee@umass.edu",
+      "githubUser": "1985lxw"
+    },
+    {
+      "name": "Sehwa Hong",
+      "email": "sehwahong@umass.edu",
+      "githubUser": "SehwaHong"
+    },
+    {
+      "name": "Yan Henadzyevich Mazheika",
+      "email": "ymazheika@umass.edu",
+      "githubUser": "mcyanny"
+    }
+  ],
   "scripts": {
     "dev": "",
     "test": "",
@@ -33,7 +52,7 @@
     "prettier": "prettier src —write"
   },
   "devDependencies": {
-    "html-validate": "^8.18.0",
+    "html-validate": "^8.18.1",
     "http-server": "^14.1.1",
     "prettier": "^3.2.5"
   }
