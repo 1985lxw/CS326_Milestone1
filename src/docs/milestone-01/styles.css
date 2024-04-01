@@ -1,6 +1,15 @@
+/*  */
 body {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+}
+
+p {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
 }
 
 
@@ -39,8 +48,8 @@ img {
     background-color: white;
 }
 
-.role {
-    font-weight: bold;
+#role {
+    font-weight: 500;
 }
 
 /* EVERYTHING ELSE */
