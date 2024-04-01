@@ -3,6 +3,19 @@ body {
     padding-right: 10%;
 }
 
+
+/* TOP OF THE PAGE */
+header {
+    text-align: center;
+    font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
+    color:rgb(48, 48, 48);
+}
+
+nav{
+    text-align: center;
+}
+
+/* TEAM MEMBERS SECTION */
 #team{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -10,7 +23,8 @@ body {
 }
 
 img {
-    height:250px
+    height:250px;
+    width: auto; /*choose images that are square so it's easier to work with */
 }
 
 .member{
@@ -29,15 +43,7 @@ img {
     font-weight: bold;
 }
 
-header {
-    text-align: center;
-    font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
-    color:rgb(48, 48, 48);
-}
-
-nav{
-    text-align: center;
-}
+/* EVERYTHING ELSE */
 
 .background-square { /*                                 fixed position css is bad practice, i commented out the element in html
     width: 100%; /* Adjust width as needed */
