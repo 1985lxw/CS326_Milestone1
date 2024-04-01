@@ -2,16 +2,39 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-
 }
 
 .member{
     text-align: center;
-    border: 1px solid blue;
+    border: 1px solid rgb(218, 218, 218);
     padding: 10px;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
+
+header {
+    text-align: center;
+    font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
+    color:rgb(48, 48, 48);
+}
+
+nav{
+    text-align: center;
+}
+
+.background-square {
+    width: 100%; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    background-color: cornflowerblue; /* Adjust background color as needed */
+    position: fixed; /* Position fixed to keep it in the background */
+    top: 100px; /* Position from top */
+    left: 50%; /* Position from left */
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    z-index: -1; /* Move it behind other content */
+  }
+
+  
