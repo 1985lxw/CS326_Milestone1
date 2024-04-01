@@ -1,3 +1,8 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 #team{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -8,7 +13,7 @@
     text-align: center;
     border: 1px solid rgb(218, 218, 218);
     padding: 10px;
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +31,7 @@ nav{
     text-align: center;
 }
 
-.background-square {
+.background-square { /*                                 fixed position css is bad practice, i commented out the element in html
     width: 100%; /* Adjust width as needed */
     height: 200px; /* Adjust height as needed */
     background-color: cornflowerblue; /* Adjust background color as needed */
@@ -35,6 +40,5 @@ nav{
     left: 50%; /* Position from left */
     transform: translate(-50%, -50%); /* Center horizontally and vertically */
     z-index: -1; /* Move it behind other content */
-  }
+  } 
 
-  
