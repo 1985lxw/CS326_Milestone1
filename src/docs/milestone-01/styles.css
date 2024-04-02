@@ -1,6 +1,7 @@
 body {
     padding-left: 10%;
     padding-right: 10%;
+    background-color: rgb(231, 243, 240);
 }
 
 h2 {
@@ -21,6 +22,24 @@ header {
 
 nav{
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 10px;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    font-weight:bolder;
+}
+
+#to-top {
+    justify-content: center;
 }
 
 /* TEAM MEMBERS SECTION */
@@ -44,11 +63,19 @@ img {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    background-color: white;
+    background-color: rgb(213, 230, 226);
+    border-radius: 3%;
+    margin:5px;
 }
 
-#role {
-    font-weight: 500;
+.member:hover {
+    background-color: rgb(198, 231, 223);
+    font-size: 20px;
+}
+
+p#role {
+    /* text-decoration: underline; */
+    font-style: italic;
 }
 
 /* EVERYTHING ELSE */
@@ -62,5 +89,10 @@ img {
     left: 50%; /* Position from left */
     transform: translate(-50%, -50%); /* Center horizontally and vertically */
     z-index: -1; /* Move it behind other content */
-  } 
+} 
+
+.main-content p{
+    padding-right:2%;
+    padding-left:2%;
+}
 
