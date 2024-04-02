@@ -2,8 +2,16 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     background-color: rgb(231, 243, 240);
+    margin-bottom: 0px;;
 }
 
+h2 {
+    font-family: Verdana, sans-serif;
+}
+
+p {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
 
 /* TOP OF THE PAGE */
 header {
@@ -17,13 +25,6 @@ header p {
     color:rgb(48, 48, 48);
 }
 
-h2 {
-    font-family: Verdana, sans-serif;
-}
-
-p {
-    font-family: Tahoma, "Trebuchet MS", sans-serif;
-}
 
 nav{
     text-align: center;
@@ -43,8 +44,9 @@ a:hover {
     font-weight:bolder;
 }
 
-#to-top {
-    justify-content: center;
+
+#vision p {
+    font-style: italic;
 }
 
 /* TEAM MEMBERS SECTION */
@@ -78,6 +80,10 @@ img {
     font-size: 20px;
 }
 
+.member:hover #role {
+    text-decoration: underline;
+}
+
 p#role {
     /* text-decoration: underline; */
     font-style: italic;
@@ -101,3 +107,46 @@ p#role {
     padding-left:2%;
 }
 
+section:hover h2{
+    text-decoration: underline;
+}
+
+#wire-frame-imgs {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(210, 228, 224);
+    border-radius: 2%;
+    padding:10px;
+    margin-right:2%;
+    margin-left:2%;
+}
+
+.wire-frame-cont {
+    text-align: center;
+    font-style: italic;
+}
+
+#wire-frame-imgs img{
+    width:300px;
+    height:auto;
+}
+
+#integrative-experience {
+    padding-bottom:5vh;
+}
+
+/* FOOTER */
+
+#to-top {
+    justify-content: center;
+    /* width:100vw; */
+    background-color: rgb(210, 228, 224);
+}
+
+#to-top:hover {
+    background-color: rgb(199, 228, 222);
+}
+
+#to-top:hover a{
+    font-weight:bolder;
+}
