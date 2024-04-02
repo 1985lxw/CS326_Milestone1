@@ -4,20 +4,25 @@ body {
     padding-right: 10%;
 }
 
-h2 {
-    font-family: Verdana, sans-serif;
-}
-
-p {
-    font-family: Tahoma, "Trebuchet MS", sans-serif;
-}
-
 
 /* TOP OF THE PAGE */
 header {
     text-align: center;
     font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
     color:rgb(48, 48, 48);
+}
+header p {
+    text-align: center;
+    font-family: 'Trocchi', serif; font-size: 20px; font-weight: normal; line-height: 48px; margin: 10;
+    color:rgb(48, 48, 48);
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+}
+
+p {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
 }
 
 nav{
